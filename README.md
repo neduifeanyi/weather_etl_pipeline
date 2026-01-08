@@ -78,7 +78,7 @@ Update your database credentials in load.py.
 
 export AIRFLOW_HOME=~/airflow
 airflow db init
-airflow users create --username admin --firstname Chinedu --lastname Igweneme --role Admin --email admin@example.com
+airflow users create --username admin --firstname yourfirstname --lastname yourlastname --role Admin --email admin@example.com
 
 
 ### Add DAG
